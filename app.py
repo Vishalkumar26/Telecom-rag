@@ -3,7 +3,7 @@
 import streamlit as st
 from chain import get_chain
 
-st.set_page_config(page_title="NovaCell Support", page_icon="📱", layout="wide")
+st.set_page_config(page_title="TeleCom Support", page_icon="📱", layout="wide")
 
 # ── Sidebar ──────────────────────────────────────────────────────────────────
 
@@ -33,8 +33,8 @@ with st.sidebar:
 
 # ── Main chat area ───────────────────────────────────────────────────────────
 
-st.title("📱 NovaCell Support Chatbot")
-st.caption("Powered by RAG — answers grounded in FAQ, resolved tickets, and telecom guides.")
+st.title("📱 TeleCom Support Chatbot")
+st.caption("Powered by RAG — answers grounded in FAQ, resolved tickets, guides, and plans for TeleCom.")
 
 # Initialise session state
 if "messages" not in st.session_state:
